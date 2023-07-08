@@ -12,6 +12,7 @@ import 'profile_tab.dart';
 import 'settings_tab.dart';
 import 'songs_tab.dart';
 import 'widgets.dart';
+import 'login_screen.dart';
 
 void main() => runApp(const MyAdaptingApp());
 // The main() function is the entry point of the app.
@@ -43,7 +44,7 @@ class MyAdaptingApp extends StatelessWidget {
           child: Material(child: child),
         );
       },
-      home: const PlatformAdaptingHomePage(),
+      home: Login(),
     );
   }
 }
